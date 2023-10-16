@@ -1,0 +1,56 @@
+
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Common styles for the text blocks */
+div {
+  border: 5px solid;
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+  position: fixed;
+}
+
+/* Specific styles for each text block */
+#one {
+  border-color: blue;
+  bottom: 0;
+  right: 0;
+}
+
+#two {
+  border-color: green;
+  top: 0;
+  right: 0;
+}
+
+#three {
+  border-color: orange;
+  top: 0;
+  left: 0;
+}
+
+#four {
+  border-color: yellow;
+  bottom: 0;
+  left: 0;
+}
+
+/* Styles for the link at the top */
+#link {
+  text-align: center;
+}
+
+#link a {
+  background-color: #0a4b33;
+  color: white;
+  display: inline-block;
+  padding: 5px;
+}
